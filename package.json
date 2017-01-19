@@ -1,6 +1,6 @@
 {
   "name": "@arve.knudsen/yo-yo",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "A tiny library for building modular UI components using DOM diffing and ES6 tagged template literals",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/aknuds1/yo-yo#readme",
   "dependencies": {
     "bel": "^4.0.0",
-    "morphdom": "~2.1.0"
+    "@arve.knudsen/morphdom": "~2.1.0"
   },
   "devDependencies": {
     "browserify": "^13.0.1",
