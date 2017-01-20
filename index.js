@@ -31,9 +31,6 @@ module.exports.update = function (fromNode, toNode, opts) {
       if (f.type !== 'file') {
         // Keep value if not set on mutating element
         if (t.getAttribute('value') === null) t.value = f.value
-      } else {
-        // Keep files if not set on mutating element
-        if (t.getAttribute('files') === null) t.files = f.files
       }
     } else if (f.nodeName === 'TEXTAREA') {
       if (t.getAttribute('value') === null) f.value = t.value
